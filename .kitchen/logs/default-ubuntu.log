@@ -1,0 +1,39 @@
+I, [2021-05-19T14:35:46.004607 #78649]  INFO -- default-ubuntu: -----> Destroying <default-ubuntu>...
+W, [2021-05-19T14:35:46.004903 #78649]  WARN -- default-ubuntu: Reading the Terraform client version...
+I, [2021-05-19T14:35:46.067356 #78649]  INFO -- default-ubuntu: Terraform v0.14.7
+I, [2021-05-19T14:35:46.067467 #78649]  INFO -- default-ubuntu: + provider registry.terraform.io/hashicorp/aws v3.41.0
+I, [2021-05-19T14:35:46.067492 #78649]  INFO -- default-ubuntu: 
+I, [2021-05-19T14:35:46.067718 #78649]  INFO -- default-ubuntu: Your version of Terraform is out of date! The latest version
+I, [2021-05-19T14:35:46.067742 #78649]  INFO -- default-ubuntu: is 0.15.3. You can update by downloading from https://www.terraform.io/downloads.html
+W, [2021-05-19T14:35:46.080786 #78649]  WARN -- default-ubuntu: Finished reading the Terraform client version.
+W, [2021-05-19T14:35:46.080879 #78649]  WARN -- default-ubuntu: Verifying the Terraform client version is in the supported interval of >= 0.11.4, < 1.1.0...
+W, [2021-05-19T14:35:46.081204 #78649]  WARN -- default-ubuntu: Finished verifying the Terraform client version.
+W, [2021-05-19T14:35:46.081255 #78649]  WARN -- default-ubuntu: Initializing the Terraform working directory...
+I, [2021-05-19T14:35:46.143197 #78649]  INFO -- default-ubuntu: 
+I, [2021-05-19T14:35:46.143511 #78649]  INFO -- default-ubuntu: [0m[1mInitializing the backend...[0m
+I, [2021-05-19T14:35:46.665003 #78649]  INFO -- default-ubuntu: 
+I, [2021-05-19T14:35:46.665062 #78649]  INFO -- default-ubuntu: [0m[1mInitializing provider plugins...[0m
+I, [2021-05-19T14:35:46.665151 #78649]  INFO -- default-ubuntu: - Reusing previous version of hashicorp/aws from the dependency lock file
+I, [2021-05-19T14:35:47.560580 #78649]  INFO -- default-ubuntu: - Using previously-installed hashicorp/aws v3.41.0
+I, [2021-05-19T14:35:47.561296 #78649]  INFO -- default-ubuntu: 
+I, [2021-05-19T14:35:47.561451 #78649]  INFO -- default-ubuntu: [0m[1m[32mTerraform has been successfully initialized![0m[32m[0m
+W, [2021-05-19T14:35:47.578611 #78649]  WARN -- default-ubuntu: Finished initializing the Terraform working directory.
+W, [2021-05-19T14:35:47.578738 #78649]  WARN -- default-ubuntu: Selecting the kitchen-terraform-default-ubuntu Terraform workspace...
+W, [2021-05-19T14:35:48.139242 #78649]  WARN -- default-ubuntu: Finished selecting the kitchen-terraform-default-ubuntu Terraform workspace.
+W, [2021-05-19T14:35:48.139630 #78649]  WARN -- default-ubuntu: Destroying the Terraform-managed infrastructure...
+I, [2021-05-19T14:35:51.119160 #78649]  INFO -- default-ubuntu: [0m[1maws_instance.example: Destroying... [id=i-01541e058a1ee5ef0][0m[0m
+I, [2021-05-19T14:36:01.122119 #78649]  INFO -- default-ubuntu: [0m[1maws_instance.example: Still destroying... [id=i-01541e058a1ee5ef0, 10s elapsed][0m[0m
+I, [2021-05-19T14:36:11.124794 #78649]  INFO -- default-ubuntu: [0m[1maws_instance.example: Still destroying... [id=i-01541e058a1ee5ef0, 20s elapsed][0m[0m
+I, [2021-05-19T14:36:21.126437 #78649]  INFO -- default-ubuntu: [0m[1maws_instance.example: Still destroying... [id=i-01541e058a1ee5ef0, 30s elapsed][0m[0m
+I, [2021-05-19T14:36:31.128561 #78649]  INFO -- default-ubuntu: [0m[1maws_instance.example: Still destroying... [id=i-01541e058a1ee5ef0, 40s elapsed][0m[0m
+I, [2021-05-19T14:36:31.777874 #78649]  INFO -- default-ubuntu: [0m[1maws_instance.example: Destruction complete after 41s[0m[0m
+I, [2021-05-19T14:36:31.825816 #78649]  INFO -- default-ubuntu: [0m[1m[32m
+I, [2021-05-19T14:36:31.825887 #78649]  INFO -- default-ubuntu: Destroy complete! Resources: 1 destroyed.[0m
+W, [2021-05-19T14:36:31.844853 #78649]  WARN -- default-ubuntu: Finished destroying the Terraform-managed infrastructure.
+W, [2021-05-19T14:36:31.845077 #78649]  WARN -- default-ubuntu: Selecting the default Terraform workspace...
+I, [2021-05-19T14:36:32.393019 #78649]  INFO -- default-ubuntu: [0m[32mSwitched to workspace "default".[0m
+W, [2021-05-19T14:36:32.407576 #78649]  WARN -- default-ubuntu: Finished selecting the default Terraform workspace.
+W, [2021-05-19T14:36:32.407679 #78649]  WARN -- default-ubuntu: Deleting the kitchen-terraform-default-ubuntu Terraform workspace...
+I, [2021-05-19T14:36:32.938125 #78649]  INFO -- default-ubuntu: [0m[32mDeleted workspace "kitchen-terraform-default-ubuntu"![0m
+W, [2021-05-19T14:36:32.952432 #78649]  WARN -- default-ubuntu: Finished deleting the kitchen-terraform-default-ubuntu Terraform workspace.
+I, [2021-05-19T14:36:32.955065 #78649]  INFO -- default-ubuntu: Finished destroying <default-ubuntu> (0m46.95s).
